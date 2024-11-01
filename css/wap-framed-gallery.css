@@ -1,0 +1,208 @@
+.wap-gallery-item {
+  	padding:0.5em;
+	position: relative;
+	float:left;
+	z-index:1;
+}
+.wap-gallery-item div {
+	float:left;
+    background-size: contain;
+}
+
+
+.wap-gallery-t,
+.wap-gallery-image,
+.wap-gallery-b {
+    width:calc(100% - 30px);
+	height: calc(100% - 30px);
+  	min-height:20px;
+}
+
+/*IMAGE*/
+.wap-gallery-image-container {
+	width:100%;
+	position: relative;
+	background-color: #FFFFED;
+	padding:25px;
+	border-width:30px;
+    border-style:solid;
+	border-image-slice: 15%;
+	border-image-repeat: stretch;
+    box-shadow:inset -2px 2px 1px rgba(0,0,0,0.6);
+}
+
+.wap-gallery-image {
+	width:100%;
+	transition: 0.4s all ease-in-out;
+	max-width:100%;
+	transform: scale(1);
+}
+.wap-gallery-image img {
+	display: table-cell;
+   	vertical-align: middle;
+}
+.wap-gallery-image-container .shadow {
+	width: calc(100% - 50px);
+	height: calc(100% - 50px);
+    position: absolute;
+	transform: scale(1);
+	transition: 0.4s all ease-in-out;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.6), 1px -1px 0px 0px rgba(0,0,0,0.2);
+}
+
+#wap-lightbox {
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:10;
+	background:rgba(0,0,0,0.9);
+	display:none;
+	text-align: center;
+}
+#wap-lightbox > img {
+	opacity: 0;
+	max-width:80%;
+	max-height:80vh;
+	margin:10vh auto;
+	border:15px solid white;
+}
+
+.xs100 {
+	width:100%;
+}
+
+@media (min-width:768px) {
+	.sm50 {
+		width:50%;
+	}
+	.sm33 {
+		width:33.33%;
+	}
+	.sm25 {
+		width:25%;
+	}
+}
+
+/*STYLES*/
+.Wood_African_Ebony {
+	border-image-source:url(../img/Wood_African_Ebony.jpg);
+    -moz-border-image-source: url(../img/Wood_African_Ebony.jpg);
+    -ms-border-image-source: url(../img/Wood_African_Ebony.jpg);
+    -o-border-image-source: url(../img/Wood_African_Ebony.jpg);
+}
+.Wood_Bark {
+	border-image-source:url(../img/Wood_Bark.jpg);
+    -moz-border-image-source: url(../img/Wood_Bark.jpg);
+    -ms-border-image-source: url(../img/Wood_Bark.jpg);
+    -o-border-image-source: url(../img/Wood_Bark.jpg);
+}
+.Wood_Black_Cherry {
+	border-image-source:url(../img/Wood_Black_Cherry.jpg);
+    -moz-border-image-source: url(../img/Wood_Black_Cherry.jpg);
+    -ms-border-image-source: url(../img/Wood_Black_Cherry.jpg);
+    -o-border-image-source: url(../img/Wood_Black_Cherry.jpg);
+}
+.Wood_Butternut {
+	border-image-source:url(../img/Wood_Butternut.jpg);
+    -moz-border-image-source: url(../img/Wood_Butternut.jpg);
+    -ms-border-image-source: url(../img/Wood_Butternut.jpg);
+    -o-border-image-source: url(../img/Wood_Butternut.jpg);
+}
+.Wood_Cedar {
+	border-image-source:url(../img/Wood_Cedar.jpg);
+    -moz-border-image-source: url(../img/Wood_Cedar.jpg);
+    -ms-border-image-source: url(../img/Wood_Cedar.jpg);
+    -o-border-image-source: url(../img/Wood_Cedar.jpg);
+}
+.Wood_Dark_Mahony {
+	border-image-source:url(../img/Wood_Dark_Mahony.jpg);
+    -moz-border-image-source: url(../img/Wood_Dark_Mahony.jpg);
+    -ms-border-image-source: url(../img/Wood_Dark_Mahony.jpg);
+    -o-border-image-source: url(../img/Wood_Dark_Mahony.jpg);
+}
+.Wood_Mahony {
+	border-image-source:url(../img/Wood_Mahony.jpg);
+    -moz-border-image-source: url(../img/Wood_Mahony.jpg);
+    -ms-border-image-source: url(../img/Wood_Mahony.jpg);
+    -o-border-image-source: url(../img/Wood_Mahony.jpg);
+}
+.Wood_Maple {
+	border-image-source:url(../img/Wood_Maple.jpg);
+    -moz-border-image-source: url(../img/Wood_Maple.jpg);
+    -ms-border-image-source: url(../img/Wood_Maple.jpg);
+    -o-border-image-source: url(../img/Wood_Maple.jpg);
+}
+.Wood_Oak {
+	border-image-source:url(../img/Wood_Oak.jpg);
+    -moz-border-image-source: url(../img/Wood_Oak.jpg);
+    -ms-border-image-source: url(../img/Wood_Oak.jpg);
+    -o-border-image-source: url(../img/Wood_Oak.jpg);
+}
+.Wood_Oldwood {
+	border-image-source:url(../img/Wood_Oldwood.jpg);
+    -moz-border-image-source: url(../img/Wood_Oldwood.jpg);
+    -ms-border-image-source: url(../img/Wood_Oldwood.jpg);
+    -o-border-image-source: url(../img/Wood_Oldwood.jpg);
+}
+.Wood_Padauk {
+	border-image-source:url(../img/Wood_Padauk.jpg);
+    -moz-border-image-source: url(../img/Wood_Padauk.jpg);
+    -ms-border-image-source: url(../img/Wood_Padauk.jpg);
+    -o-border-image-source: url(../img/Wood_Padauk.jpg);
+}
+.Wood_Pecan {
+	border-image-source:url(../img/Wood_Pecan.jpg);
+    -moz-border-image-source: url(../img/Wood_Pecan.jpg);
+    -ms-border-image-source: url(../img/Wood_Pecan.jpg);
+    -o-border-image-source: url(../img/Wood_Pecan.jpg);
+}
+.Wood_Poplar {
+	border-image-source:url(../img/Wood_Poplar.jpg);
+    -moz-border-image-source: url(../img/Wood_Poplar.jpg);
+    -ms-border-image-source: url(../img/Wood_Poplar.jpg);
+    -o-border-image-source: url(../img/Wood_Poplar.jpg);
+}
+.Wood_Red_Elm {
+	border-image-source:url(../img/Wood_Red_Elm.jpg);
+    -moz-border-image-source: url(../img/Wood_Red_Elm.jpg);
+    -ms-border-image-source: url(../img/Wood_Red_Elm.jpg);
+    -o-border-image-source: url(../img/Wood_Red_Elm.jpg);
+}
+.Wood_Regularwood {
+	border-image-source:url(../img/Wood_Regularwood.jpg);
+    -moz-border-image-source: url(../img/Wood_Regularwood.jpg);
+    -ms-border-image-source: url(../img/Wood_Regularwood.jpg);
+    -o-border-image-source: url(../img/Wood_Regularwood.jpg);
+}
+.Wood_Rosewood {
+	border-image-source:url(../img/Wood_Rosewood.jpg);
+    -moz-border-image-source: url(../img/Wood_Rosewood.jpg);
+    -ms-border-image-source: url(../img/Wood_Rosewood.jpg);
+    -o-border-image-source: url(../img/Wood_Rosewood.jpg);
+}
+.Wood_Sycamore {
+	border-image-source:url(../img/Wood_Sycamore.jpg);
+    -moz-border-image-source: url(../img/Wood_Sycamore.jpg);
+    -ms-border-image-source: url(../img/Wood_Sycamore.jpg);
+    -o-border-image-source: url(../img/Wood_Sycamore.jpg);
+}
+.Wood_Walnut {
+	border-image-source:url(../img/Wood_Walnut.jpg);
+    -moz-border-image-source: url(../img/Wood_Walnut.jpg);
+    -ms-border-image-source: url(../img/Wood_Walnut.jpg);
+    -o-border-image-source: url(../img/Wood_Walnut.jpg);
+}
+.Wood_White_Ash {
+	border-image-source:url(../img/Wood_White_Ash.jpg);
+    -moz-border-image-source: url(../img/Wood_White_Ash.jpg);
+    -ms-border-image-source: url(../img/Wood_White_Ash.jpg);
+    -o-border-image-source: url(../img/Wood_White_Ash.jpg);
+}
+.Wood_Zebrawood {
+	border-image-source:url(../img/Wood_Zebrawood.jpg);
+    -moz-border-image-source: url(../img/Wood_Zebrawood.jpg);
+    -ms-border-image-source: url(../img/Wood_Zebrawood.jpg);
+    -o-border-image-source: url(../img/Wood_Zebrawood.jpg);
+}
